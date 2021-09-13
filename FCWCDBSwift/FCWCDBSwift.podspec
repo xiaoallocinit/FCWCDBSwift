@@ -8,14 +8,14 @@ Pod::Spec.new do |wcdb|
                       The WeChat Database, for Swift. 
                       It can be a replacement for Core Data, SQLite & FMDB.
                       DESC
-  wcdb.homepage     = "https://github.com/xiaoallocinit/FCWCDBSwift.swift"
+  wcdb.homepage     = "https://github.com/xiaoallocinit/FCWCDBSwift"
   wcdb.license      = { :type => "BSD", :file => "LICENSE" }
-  wcdb.author             = { "xiao2683" => "xiao2683@qq.com" }
+  wcdb.author             = { "xiaoallocinit" => "xiao2683@qq.com" }
   wcdb.ios.deployment_target = "9.0"
   wcdb.osx.deployment_target = "10.9"
   wcdb.watchos.deployment_target = "2.0"
   wcdb.tvos.deployment_target = "9.0"
-  wcdb.source       = { :git => "https://github.com/xiaoallocinit/FCWCDBSwift.swift.git", :tag => wcdb.version }
+  wcdb.source       = { :git => "https://github.com/xiaoallocinit/FCWCDBSwift.git", :tag => wcdb.version }
   wcdb.source_files  = "source/**/*.swift", "source/**/**/*.swift", "source/util/*.{h,c}"
   wcdb.module_name = "WCDBSwift"
   wcdb.requires_arc = true
