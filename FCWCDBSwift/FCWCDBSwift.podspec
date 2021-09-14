@@ -16,7 +16,7 @@ Pod::Spec.new do |wcdb|
   wcdb.watchos.deployment_target = "2.0"
   wcdb.tvos.deployment_target = "9.0"
   wcdb.source       = { :git => "https://github.com/xiaoallocinit/FCWCDBSwift.git", :tag => wcdb.version }
-  wcdb.source_files  = "source/**/*.swift", "source/**/**/*.swift", "source/util/*.{h,c}"
+  wcdb.source_files  = "FCWCDBSwift/source/**/*.swift", "FCWCDBSwift/source/**/**/*.swift", "FCWCDBSwift/source/util/*.{h,c}"
   wcdb.module_name = "WCDBSwift"
   wcdb.requires_arc = true
   wcdb.pod_target_xcconfig = { 
