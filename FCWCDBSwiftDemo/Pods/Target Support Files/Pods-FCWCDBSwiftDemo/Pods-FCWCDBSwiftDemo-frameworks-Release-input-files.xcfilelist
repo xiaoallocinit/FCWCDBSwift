@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-FCWCDBSwiftDemo/Pods-FCWCDBSwiftDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FCWCDBSwift/WCDBSwift.framework
+${BUILT_PRODUCTS_DIR}/SQLiteRepairKit/sqliterk.framework
+${BUILT_PRODUCTS_DIR}/WCDBOptimizedSQLCipher/sqlcipher.framework

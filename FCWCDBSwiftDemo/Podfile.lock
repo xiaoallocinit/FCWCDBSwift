@@ -1,0 +1,28 @@
+PODS:
+  - FCWCDBSwift (1.0.0):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - SQLiteRepairKit (1.2.2):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
+
+DEPENDENCIES:
+  - FCWCDBSwift (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SQLiteRepairKit
+    - WCDBOptimizedSQLCipher
+
+EXTERNAL SOURCES:
+  FCWCDBSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FCWCDBSwift: 935c6059560836bcf6152d9a055e6bc98af76ce4
+  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+
+PODFILE CHECKSUM: ea156c173fddc8c18edc7c4f238c207bd373201d
+
+COCOAPODS: 1.9.3
